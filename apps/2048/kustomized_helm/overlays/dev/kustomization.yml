@@ -15,7 +15,7 @@ resources:
 
 images:
 - name: 2048-app
-  newName: ajcargosquad0registry.azurecr.io/2048
+  newName: cafaksregistry.azurecr.io/2048
   newTag: latest
 
 patchesJson6902:

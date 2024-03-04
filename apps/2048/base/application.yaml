@@ -10,7 +10,7 @@ metadata:
 spec:
   project: 'default'
   source:
-    repoURL: '<update me>'
+    repoURL: 'https://github.com/antonioc74/argocd-app-of-apps.git'
     path: apps/2048/kustomized_helm/overlays/dev
     targetRevision: HEAD
     plugin:
