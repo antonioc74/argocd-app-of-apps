@@ -16,11 +16,11 @@ spec:
       containers:
       - name: 2048-app
         # Replace with your docker registry info
-        image: antacrregistry.azurecr.io/2048:{{ .Values.tag }}
+        image: cafaksregistry.azurecr.io/2048:{{ .Values.tag }}
         imagePullPolicy: Always
         ports:
         - containerPort: 80
         resources:
           limits:
             cpu: "0.1"
-            memory: 100Mi
+            memory: 2Mi
